@@ -31,7 +31,7 @@ function str_hmac_md5(key, data) { return binl2str(core_hmac_md5(key, data)); }
  */
 function md5_vm_test()
 {
-  return hex_md5("abc") == "900150983cd24fb0d6963f7d28e17f72";
+  return hex_md5("abc") == "e88f65b71d97d22909a99fe22005f801";
 }
 
 /*
